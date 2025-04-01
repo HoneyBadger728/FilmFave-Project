@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://HoneyBadger728.github.io/FilmFave/",
+  "homepage": "https://HoneyBadger728.github.io/FilmFave-Project/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
