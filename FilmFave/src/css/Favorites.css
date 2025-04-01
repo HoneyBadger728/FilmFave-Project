@@ -49,4 +49,10 @@
   .movies-grid > * {
     animation: fadeIn 0.3s ease-out forwards;
   }
+ 
   
+  @media (prefers-color-scheme: light) {
+    .favorites h2 {
+      color: #1a1a1a;
+    }
+  }

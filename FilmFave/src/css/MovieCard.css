@@ -110,6 +110,7 @@
   @media (max-width: 768px) {
     .movie-card {
       font-size: 0.9rem;
+      width: 100%; /* Ensure cards take full width on smaller screens */
     }
   
     .movie-info {
@@ -120,5 +121,15 @@
       width: 32px;
       height: 32px;
       font-size: 1.2rem;
+    }
+  
+    .movie-poster {
+      aspect-ratio: 1/1; /* Make it square for small screens */
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .movie-info p {
+      color: #ffffff;
     }
   }
