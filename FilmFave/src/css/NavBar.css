@@ -44,11 +44,13 @@
     .navbar-links {
       flex-direction: column; /* Stack links vertically */
       gap: 1rem;
-      align-items: center;
+      align-items: center; /* Center align links */
+      margin: 0;
     }
   
     .nav-link {
       font-size: 1.5rem;
       padding: 0.5rem;
+    
     }
   }
